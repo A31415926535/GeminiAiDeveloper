@@ -21,7 +21,6 @@ npm install dotenv
 npm install @google/generative-ai
 npm install cors
 npm install ws
-npm install -g http-server
 ```
 
 3. Retrieve the API key from Google AI Studio and replace it into the *index.js* file
@@ -33,8 +32,7 @@ const apiKey = process.env.GOOGLE_API_KEY;
 4. Start the server
 
 ```
-cd path/to/your/project
-http-server
+node server.js
 ```
 
-5. Open your browser and go to 'http://localhost:3000/' (or the port number displayed in your ternimal)
+5. Use a Local Development Environment such as XAMPP/MAMP/WAMP by putting the files into the htdocs folder and open it on localhost.
