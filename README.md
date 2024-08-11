@@ -1,4 +1,4 @@
-# GeminiAiDeveloper Downloadable Prototype
+# GeminiAiDeveloper
 ![image](https://github.com/user-attachments/assets/c19706e5-3b59-4124-a2d5-cb19e296fc71)
 
 # Prerequisites
@@ -22,6 +22,7 @@ npm install dotenv
 npm install @google/generative-ai
 npm install cors
 npm install ws
+npm install http-server
 ```
 
 3. Retrieve the API key from Google AI Studio and replace it into the *index.js* file
@@ -33,7 +34,5 @@ const apiKey = process.env.GOOGLE_API_KEY;
 4. Start the server
 
 ```
-node server.js
+node index.js
 ```
-
-5. Use a Local Development Environment such as XAMPP/MAMP/WAMP by putting the files into the htdocs folder and open the *index.html* file on localhost.
