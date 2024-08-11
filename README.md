@@ -1,4 +1,5 @@
 # GeminiAiDeveloper Downloadable Prototype
+![image](https://github.com/user-attachments/assets/c19706e5-3b59-4124-a2d5-cb19e296fc71)
 
 # Prerequisites
 
