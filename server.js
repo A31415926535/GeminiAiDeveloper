@@ -5,7 +5,7 @@ const WebSocket = require('ws');
 require('dotenv').config();
 
 // Use environment variables for hostname and port
-const host = 'localhost';
+const host = '127.0.0.1';
 const port = 3000;
 
 const app = express();
