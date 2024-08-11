@@ -35,4 +35,4 @@ const apiKey = process.env.GOOGLE_API_KEY;
 node server.js
 ```
 
-5. Use a Local Development Environment such as XAMPP/MAMP/WAMP by putting the files into the htdocs folder and open it on localhost.
+5. Use a Local Development Environment such as XAMPP/MAMP/WAMP by putting the files into the htdocs folder and open the *index.html* file on localhost.
