@@ -20,7 +20,7 @@
         'https://i.ibb.co/x8FDFZZ/robotneutral.gif'
     ];
 
-    const socket = new WebSocket('ws://127.0.0.1/3000');
+    const socket = new WebSocket('ws://127.0.0.1:3000');
 
     socket.onopen = () => {
         console.log('WebSocket connection established');
